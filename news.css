@@ -1,0 +1,15 @@
+html{
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 1200px;
+    height: 3000px;
+    background-color: #1A1A1A;
+    padding: 2em 2em 4em;
+    margin: 0 auto;
+    color: #FF1D25;
+    font-family: 'Monda', sans-serif;
+    box-shadow: 0 0 100px #1A1A1A, 0 0 100px #1A1A1A;
+}
