@@ -7,7 +7,7 @@ body{
     max-width: 1200px;
     height: 3000px;
     background-color: #1A1A1A;
-    padding: 2em 2em 4em;
+    padding: 80px;
     margin: 0 auto;
     color: #FF1D25;
     font-family: 'Monda', sans-serif;
@@ -15,10 +15,10 @@ body{
 }
 
 #news{
-    left: 312px;
     text-align: center;
     position: absolute;
     top: 40px;
+    margin-left: 8%;
     padding: 30px;
     background-color: #FF1D25;
     width: 800px;
@@ -55,17 +55,19 @@ body{
 }
 
 #logo1 a:hover{
+    transition: 0.5s;
     background-color: #fff;
     box-shadow: #fff;
     color: #000;
 }
 
 #logo1 a:active{
+    transition: 0.5s;
     background-color: #FF1D25;
 }
 #header{
     position: absolute;
-    width: 1423px;
+    width: 100%;
     background-color: #1a1a1a;
     height: 58px;
     top: -20px;
