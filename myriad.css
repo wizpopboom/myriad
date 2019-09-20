@@ -146,7 +146,7 @@ ul{
 #storyline{
     text-align: left;
     position: absolute;
-    top: 1200px;
+    top: 1500px;
     color: #fff;
     font-size: 18px;
     left: 361.5px;
@@ -156,7 +156,7 @@ ul{
 #online{
     text-align: left;
     position: absolute;
-    top: 1320px;
+    top: 1620px;
     color: #fff;
     font-size: 18px;
     left: 361.5px;
@@ -194,5 +194,7 @@ ul{
 
 #gameplay{
     position: absolute;
-    top: 1250px;
+    top: 1200px;
+    left: 250px;
+    height: 250px;
 }
