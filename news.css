@@ -64,6 +64,7 @@ body{
 #logo1 a:active{
     transition: 0.5s;
     background-color: #FF1D25;
+    color: #fff;
 }
 #header{
     position: absolute;

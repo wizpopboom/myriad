@@ -1,7 +1,7 @@
 html{
     background-color: #000;
     scroll-behavior: smooth;
-    margin: 10px;
+    padding: 80px;
     text-align: center;
     user-select: none;
 }
@@ -195,6 +195,7 @@ ul{
 #logo1 a:active{
     background-color: #FF1D25;
     transition: 0.5s;
+    color: #fff;
 }
 
 #gameplay{
