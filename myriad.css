@@ -11,11 +11,24 @@ body{
     height: 3000px;
     background-color: #1A1A1A;
     padding: 2em 2em 4em;
-    color: #FF1D25;
+    color: #fff;
+    font-size: 20px;
     font-family: 'Monda', sans-serif;
     box-shadow: 0 0 10px #FF1D25, 0 0 100px #1a1a1a, 0 0 100px #000;
+    animation: glow 5s linear 1.5s infinite alternate, ease-in-out;
 }
 
+@keyframes glow{
+    
+    from{
+        box-shadow: 0 0 10px #FF1D25, 0 0 100px #1a1a1a, 0 0 100px #000;
+    }
+    
+    to{
+       box-shadow: 0 0 0.5px #FF1D25, 0 0 100px #1a1a1a, 0 0 100px #000; 
+    }
+}
+    
 #header{
     position: fixed;
     width: 100%;
@@ -33,7 +46,7 @@ h1{
     margin: 0 auto;
     padding: 30px;
     background-color: #FF1D25;
-    width: 1100px;
+    max-width: 1100px;
     height: auto;
     box-shadow: 0 0 8px #000;
     color: #1A1A1A;
@@ -51,7 +64,8 @@ h1{
     display: block;
     margin: 0 auto;
     margin-right: auto;
-    width: 850px;
+    max-width: 800px;
+    width: 80%;
     top: 180px;
     box-shadow: 0 0 5px #000;
 }
@@ -80,7 +94,8 @@ ul{
     margin: 0 auto;
     padding: 0;
     list-style-type: none;
-    width: 1000px;
+    max-width: 1200px;
+    width: 80%;
 }
 
 ul a{
@@ -116,17 +131,17 @@ ul a:active{
 }
 
 #logo1 a:hover{
-    background-color: #fff;
-    box-shadow: #fff;
-    color: #000;
-    transition: 0.5s;
-}
-
-#logo1 a:active{
     background-color: #FF1D25;
     transition: 0.5s;
     box-shadow: #FF1D25;
     color: #fff;
+}
+
+#logo1 a:active{
+    background-color: #fff;
+    box-shadow: #fff;
+    color: #000;
+    transition: 0.5s;
 }
 
 #about{
@@ -137,7 +152,51 @@ ul a:active{
 }
 
 #titleabout{
+    margin: 0 auto;
     color: #fff;
     font-family: 'alienleagueexpand';
     font-size: 72px;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    width: 100%;
+    max-width: 800px;
+}
+
+#gameplay{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 60%
+}
+
+#aboutinfo{
+    text-align: left;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#storyline{
+    text-align: left;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#online{
+    text-align: left;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#news{
+    text-align: center;
+    top: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FF1D25;
+    max-width: 1100px;
+    height: auto;
+    box-shadow: 0 0 8px #000;
+    color: #1A1A1A;
+    font-size: 90px;
+    font-family: 'alienleagueexpand';
+    text-shadow: 0 0 8px #FF1D25;
 }
