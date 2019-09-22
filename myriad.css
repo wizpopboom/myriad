@@ -206,6 +206,7 @@ ul a:active{
 }
 
 #nyaa{
+    display: block;
     max-width: 600px;
     width: 100%;
     margin: 0 auto
@@ -218,6 +219,7 @@ ul a:active{
 }
 
 #ranks{
+    display: block;
     margin: 0 auto;
     width: 100%;
     max-width: 1300px;
