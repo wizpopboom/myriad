@@ -1,21 +1,20 @@
 html{
     background-color: #000;
     scroll-behavior: smooth;
-    padding: 80px;
-    text-align: center;
+    padding: 55px 200px;
+    text-align: left;
     user-select: none;
 }
 
 body{
     max-width: 100%;
-    height: 3000px;
     background-color: #1A1A1A;
     padding: 2em 2em 4em;
     color: #fff;
     font-size: 20px;
     font-family: 'Monda', sans-serif;
     box-shadow: 0 0 10px #FF1D25, 0 0 100px #1a1a1a, 0 0 100px #000;
-    animation: glow 5s linear 1.5s infinite alternate, ease-in-out;
+    animation: glow 5s linear 0s infinite alternate, ease-in-out;
 }
 
 @keyframes glow{
@@ -25,7 +24,7 @@ body{
     }
     
     to{
-       box-shadow: 0 0 0.5px #FF1D25, 0 0 100px #1a1a1a, 0 0 100px #000; 
+       box-shadow: 0 0 100px #1a1a1a, 0 0 100px #000; 
     }
 }
     
@@ -34,10 +33,11 @@ body{
     width: 100%;
     background-color: #000;
     height: 60px;
-    top: -18px;
+    top: -20px;
     left: 0px;
     border-bottom: 1px solid #fff;
     box-shadow: 0 0 10px #fff;
+    opacity: 0.8;
 }
 
 h1{
@@ -67,7 +67,6 @@ h1{
     max-width: 800px;
     width: 80%;
     top: 180px;
-    box-shadow: 0 0 5px #000;
 }
 
 li a{
@@ -113,7 +112,7 @@ ul a:active{
     box-shadow: 0 0 5px #000;
 }
 
-#logo1 a{
+#logo a{
     color: inherit;
     text-decoration: none;
     position: fixed;
@@ -130,14 +129,14 @@ ul a:active{
     transition: color: 0.5s;
 }
 
-#logo1 a:hover{
+#logo a:hover{
     background-color: #FF1D25;
     transition: 0.5s;
     box-shadow: #FF1D25;
     color: #fff;
 }
 
-#logo1 a:active{
+#logo a:active{
     background-color: #fff;
     box-shadow: #fff;
     color: #000;
@@ -194,9 +193,10 @@ ul a:active{
 }
 
 #gameplay{
-    margin: 0 auto;
     max-width: 1000px;
-    width: 60%
+    width: 60%;
+    display: block;
+    margin: 0 auto; 
 }
 
 #aboutinfo{
@@ -205,10 +205,22 @@ ul a:active{
     max-width: 1000px;
 }
 
+#nyaa{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto
+}
+
 #storyline{
     text-align: left;
     margin: 0 auto;
     max-width: 800px;
+}
+
+#ranks{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
 }
 
 #online{
