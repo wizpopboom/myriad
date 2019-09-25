@@ -248,3 +248,12 @@ ul a:active{
     font-family: 'alienleagueexpand';
     text-shadow: 0 0 8px #FF1D25;
 }
+
+.download a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.download{
+    text-align: center;
+}
