@@ -1,7 +1,7 @@
 html{
     background-color: #000;
     scroll-behavior: smooth;
-    padding: 55px 100px;
+    padding: 55px 80px;
     text-align: left;
     user-select: none;
 }
@@ -130,11 +130,6 @@ ul a:active{
     transition: color: 0.5s;
 }
 
-#storyline{
-    text-align: left;
-    position: absolute;
-    top: 1500px;
-}
 #logo a:hover{
     background-color: #FF1D25;
     transition: 0.5s;
@@ -142,15 +137,6 @@ ul a:active{
     color: #fff;
 }
 
-#online{
-    text-align: left;
-    position: absolute;
-    top: 1620px;
-    color: #fff;
-    font-size: 18px;
-    left: 361.5px;
-    width: 700px;
-}
 #logo a:active{
     background-color: #fff;
     box-shadow: #fff;
@@ -205,6 +191,7 @@ ul a:active{
     padding: 5px;
     width: 100%;
     max-width: 800px;
+    text-align: center;
 }
 
 #gameplay{
